@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Улучшение изображений в браузере (ML demo)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Улучшение изображений в реальном времени</h1>
+  <p class="subtitle">ML-модель (TensorFlow.js) подбирает параметры коррекции яркости, контрастности и цветности.
+  Вся обработка выполняется прямо в браузере, без отправки изображения на сервер.</p>
+</header>
+
+<main>
+
+  <section class="upload-block">
+    <label for="fileInput" class="file-label">Выбрать изображение (JPG / PNG / HEIC / BMP)</label>
+    <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.heic,.heif,.bmp,image/*">
+    <button id="processBtn" disabled>Обработать</button>
+    <button id="abortBtn" disabled>Отменить</button>
+  </section>
+
+  <section class="progress-block">
+    <div id="progressBarOuter">
+      <div id="progressBarInner"></div>
+    </div>
+    <span id="statusText">Ожидание файла…</span>
+  </section>
+
+  <section class="images-block">
+    <div class="image-card">
+      <h3>Исходное изображение</h3>
+      <img id="originalImg" alt="исходное изображение">
+    </div>
+    <div class="image-card">
+      <h3>Результат</h3>
+      <img id="resultImg" alt="результат обработки">
+      <a id="downloadLink" href="#" download="enhanced.png" style="display:none">Скачать результат</a>
+    </div>
+  </section>
+
+  <section class="log-block">
+    <h3>Лог (метод getStatus / событие taskstatuschange)</h3>
+    <pre id="logBox"></pre>
+  </section>
+
+</main>
+
+<!-- TensorFlow.js используется только внутри worker.js -->
+<!-- Библиотека для конвертации HEIC -> JPEG, т.к. браузеры не умеют декодировать HEIC "из коробки" -->
+<script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
+
+<script src="app.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
