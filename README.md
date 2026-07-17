@@ -4,6 +4,10 @@
 (яркость, контрастность, насыщенность) прямо в браузере пользователя,
 без отправки изображения на сервер.
 
+Примерs работы проекта:
+<img width="890" height="445" alt="Снимок экрана — 2026-07-17 в 19 37 26" src="https://github.com/user-attachments/assets/604532cf-78b7-4dbb-8a8c-267db739e2c1" />
+<img width="878" height="282" alt="Снимок экрана — 2026-07-17 в 19 39 01" src="https://github.com/user-attachments/assets/e9c533c5-d8a8-4016-82a6-2381ae5d0b44" />
+
 ## Как запустить
 
 Файлы используют Web Worker и `fetch`-подобные механизмы браузера, поэтому
@@ -39,10 +43,6 @@ app.js       — API-модуль (ImageEnhancerAPI): submitTask/getStatus/abort
 main.js      — UI-логика, использующая app.js
 worker.js    — Web Worker: ML-модель + алгоритм применения коррекции
 ```
-Пример работы проекта:
-<img width="890" height="445" alt="Снимок экрана — 2026-07-17 в 19 37 26" src="https://github.com/user-attachments/assets/604532cf-78b7-4dbb-8a8c-267db739e2c1" />
-<img width="878" height="282" alt="Снимок экрана — 2026-07-17 в 19 39 01" src="https://github.com/user-attachments/assets/e9c533c5-d8a8-4016-82a6-2381ae5d0b44" />
-
 
 ## Как это работает
 
