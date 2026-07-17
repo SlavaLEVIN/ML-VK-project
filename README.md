@@ -1,4 +1,3 @@
-<img width="884" height="438" alt="Снимок экрана — 2026-07-17 в 19 36 25" src="https://github.com/user-attachments/assets/e91fa24c-3721-4f82-8eca-9561d332a458" />
 # Улучшение изображений в браузере (ML-модуль на TensorFlow.js)
 
 Учебный проект: клиентское веб-приложение, которое улучшает фотографии
@@ -42,6 +41,8 @@ worker.js    — Web Worker: ML-модель + алгоритм применен
 ```
 Пример работы проекта:
 <img width="890" height="445" alt="Снимок экрана — 2026-07-17 в 19 37 26" src="https://github.com/user-attachments/assets/604532cf-78b7-4dbb-8a8c-267db739e2c1" />
+<img width="878" height="282" alt="Снимок экрана — 2026-07-17 в 19 39 01" src="https://github.com/user-attachments/assets/e9c533c5-d8a8-4016-82a6-2381ae5d0b44" />
+
 
 ## Как это работает
 
