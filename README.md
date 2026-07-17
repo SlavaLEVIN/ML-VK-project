@@ -1,3 +1,4 @@
+<img width="884" height="438" alt="Снимок экрана — 2026-07-17 в 19 36 25" src="https://github.com/user-attachments/assets/e91fa24c-3721-4f82-8eca-9561d332a458" />
 # Улучшение изображений в браузере (ML-модуль на TensorFlow.js)
 
 Учебный проект: клиентское веб-приложение, которое улучшает фотографии
@@ -39,6 +40,8 @@ app.js       — API-модуль (ImageEnhancerAPI): submitTask/getStatus/abort
 main.js      — UI-логика, использующая app.js
 worker.js    — Web Worker: ML-модель + алгоритм применения коррекции
 ```
+Пример работы проекта:
+<img width="890" height="445" alt="Снимок экрана — 2026-07-17 в 19 37 26" src="https://github.com/user-attachments/assets/604532cf-78b7-4dbb-8a8c-267db739e2c1" />
 
 ## Как это работает
 
