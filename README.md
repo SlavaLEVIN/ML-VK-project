@@ -48,7 +48,7 @@ style.css    — простые стили
 app.js       — API-модуль (ImageEnhancerAPI): submitTask/getStatus/abortTask/getResult
 main.js      — UI-логика + обработчики демо-кнопок
 worker.js    — Web Worker: ML-модель + алгоритм применения коррекции
-test-photo/  — примеры фото для демо-режима
+assets/samples/ — 3 небольших примера для демо-режима
 ```
 
 ## Как это работает
