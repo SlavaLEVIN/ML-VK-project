@@ -4,6 +4,11 @@
 (яркость, контрастность, насыщенность) прямо в браузере пользователя,
 без отправки изображения на сервер.
 
+<img width="1780" height="890" alt="image" src="https://github.com/user-attachments/assets/323009f0-a53e-492b-adff-42433da52d5a" />
+
+<img width="1756" height="564" alt="image" src="https://github.com/user-attachments/assets/c8ac68a9-3ae2-4d99-9c42-3ca198f97b5e" />
+
+
 ## Демо-режим
 
 На странице есть блок **«Демо: попробовать без загрузки своего файла»** —
